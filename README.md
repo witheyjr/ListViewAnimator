@@ -37,7 +37,7 @@ Please download and see the sample app code for usage instructions and example.
     See the License for the specific language governing permissions and
     limitations under the License.
     Come on, don't tell me you read that.
-
+ 
 [screenshot]:https://github.com/chief-worminger/ListViewAnimator/blob/master/screenshot.png
 [apk]:https://github.com/chief-worminger/ListViewAnimator/blob/master/ListViewAnimator.apk
 [roman-swipe-to-dismiss]:https://github.com/romannurik/Android-SwipeToDismiss
