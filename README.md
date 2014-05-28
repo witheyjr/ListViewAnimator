@@ -11,6 +11,8 @@ This code builds on AOSP code in order to animate both the removal and addition 
 - Utilises the fantastic NineOldAndroids (Thanks [Jake Wharton][nineoldandroids])
 - Also includes content from SwipeToDismissUndoList (Thanks [Tim Roes][timroes])
 
+![screenshot][screenshot]
+
 ####[Sample apk][apk]
 
 
@@ -36,7 +38,7 @@ Please download and see the sample app code for usage instructions and example.
     limitations under the License.
     Come on, don't tell me you read that.
 
-
+[screenshot]:https://github.com/chief-worminger/ListViewAnimator/blob/master/screenshot.png
 [apk]:https://github.com/chief-worminger/ListViewAnimator/blob/master/ListViewAnimator.apk
 [roman-swipe-to-dismiss]:https://github.com/romannurik/Android-SwipeToDismiss
 [news alarm]:https://play.google.com/store/apps/details?id=com.witheyjr.newsAlarm
