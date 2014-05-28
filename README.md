@@ -7,7 +7,7 @@ Allows very smoothly animated and versatile addition and removal of ListView ite
 
 This code builds on AOSP code in order to animate both the removal and addition of ListView items smoothly and easily. Only implementing the ListViewAnimator interface and small tweaks to your adapter class are necessary in order to give your ListView smooth animations, regardless of layout complexity. This code was created because in my [News Alarm][news alarm] app, the traditional methods of resizing the views after swiping (via layoutParams) was jerky and unattractive on many devices. The [DevBytes][devbytes] AOSP code showed us how to make the removal animations very smooth, but did not take into account the addition of items.
 
-- Uses an adapted form of SwipeToDismiss (Thanks [Roman Nurik][[roman-swipe-to-dismiss])
+- Uses an adapted form of SwipeToDismiss (Thanks [Roman Nurik][roman-swipe-to-dismiss])
 - Utilises the fantastic NineOldAndroids (Thanks [Jake Wharton][nineoldandroids])
 - Also includes content from SwipeToDismissUndoList (Thanks [Tim Roes][timroes])
 
