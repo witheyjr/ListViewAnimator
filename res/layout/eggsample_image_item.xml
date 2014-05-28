@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+	android:paddingTop="7dp"
+	android:paddingBottom="3dp"
+	android:orientation="vertical" >
+	
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card6"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" >
+    
+		<TextView
+		    android:id="@+id/title"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:maxLines="1"
+		    android:singleLine="true"
+		    android:fontFamily="sans-serif-thin"
+		    android:gravity="center_horizontal"
+		    android:text="Test egg"
+		    android:textColor="@android:color/black" >
+		</TextView>
+		
+		<ImageView
+		    android:id="@+id/image"
+		    android:layout_height="80dp"
+		    android:layout_width="match_parent"
+		    android:contentDescription="Picture of an egg"
+		    android:paddingLeft="0dp"
+		    android:paddingRight="0dp"
+		    android:paddingBottom="8dp"
+		    android:gravity="center"
+		    android:src="@drawable/fried_egg"
+		    android:scaleType="fitCenter"
+		    android:layout_centerInParent="true" />
+	</LinearLayout>
+</RelativeLayout>
+   
+   
+   
+   
+   
+   

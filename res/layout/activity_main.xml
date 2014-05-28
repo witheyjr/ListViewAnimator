@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="#FF0000" >
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#000000FF"
+  		android:dividerHeight="0dp"
+        android:background="@android:color/transparent"
+        android:longClickable="true"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent" />
+    
+</RelativeLayout>
+

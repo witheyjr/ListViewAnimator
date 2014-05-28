@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal"
+	android:background="@drawable/popup_bg"
+	android:paddingRight="8dp"
+	android:gravity="center">
+	
+	<TextView 
+	    android:id="@+id/text"
+		android:padding="8dp"
+		android:textSize="18dp"
+		android:layout_weight="1"
+		android:textColor="@color/popup_text_color"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="sans-serif-thin"
+		android:maxLines="1" />
+	
+	<View
+		android:layout_weight="0"
+		android:layout_marginRight="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="15dp"
+		android:layout_marginBottom="15dp"
+		android:layout_width="1dp"
+		android:layout_height="fill_parent"
+		android:background="@color/separator_color"/>
+	
+	<Button 
+	    android:id="@+id/undo"
+		android:textColor="@color/popup_text_color"
+		android:background="@drawable/undo_btn_bg"
+		android:drawableLeft="@drawable/ic_action_undo"
+		android:layout_weight="0"
+		android:paddingRight="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="sans-serif-thin"
+		android:textSize="14dp"
+		android:text="@string/undo" />
+</LinearLayout>
