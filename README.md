@@ -14,6 +14,9 @@ This code builds on AOSP code in order to animate both the removal and addition 
 ![screenshot][screenshot]
 
 ####[Sample apk][apk]
+<a href="https://play.google.com/store/apps/details?id=com.witheyjr.listviewanimator">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 
 
 
