@@ -37,7 +37,7 @@ Please download and see the sample app code for usage instructions and example.
     Come on, don't tell me you read that.
 
 
-[apk]:h
+[apk]:https://github.com/chief-worminger/ListViewAnimator/blob/master/ListViewAnimator.apk
 [roman-swipe-to-dismiss]:https://github.com/romannurik/Android-SwipeToDismiss
 [news alarm]:https://play.google.com/store/apps/details?id=com.witheyjr.newsAlarm
 [devbytes]:http://graphics-geek.blogspot.co.uk/2013/06/devbytes-animating-listview-deletion.html
